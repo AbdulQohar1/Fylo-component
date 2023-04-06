@@ -15,13 +15,17 @@ body{
     padding-bottom: 8em;
     padding-left: 180px;
     gap: 30px;
+
+    position: relative;
 }
 
 .first-section{
-    background-color: rgb(30,44,105);
-    width: 25%;
-    padding: 50px 30px;
-    border-radius: 10px 150px 10px 10px;
+  background-color: rgb(30,44,105);
+  width: 25%;
+  padding: 40px 30px;
+  border-radius: 10px 140px 10px 10px;
+  position: absolute;
+  top: -100px;
 }
 
 .icon-div{
@@ -37,17 +41,27 @@ body{
 }
 
 .second-section{
-    border-radius: 15px;
-    background-color:rgb(30,44,105) ;
-    width: 50%;
-    padding: 2rem;
+  border-radius: 15px;
+  background-color: rgb(30,44,105);
+  width: 40%;
+  padding: 2rem;
+  position: absolute;
+  right: 60px;
+  top: -90px;
 }
 
 .storage-left{
-    background-color: #fff;
-    width: 25%;
-    padding: 10px 45px;
-    border-radius: 5px;
+  background-color: #fff;
+  width: 25%;
+  padding: 7px 35px;
+  border-radius: 12px 12px 0 12px;
+  position: absolute;
+  top: -45px;
+  right: 30px;
+}
+
+.one-hundred+{
+  font-weight: bolder;
 }
 
 .gb-left{
@@ -58,7 +72,8 @@ body{
   font-size: 12px;
   color: #fff;
   font-weight: 200;
-  /* opacity: 0.5; */
+  padding-top: 12px;
+  padding-bottom: 10px
 }
 
 .eight-hundred+{
@@ -68,13 +83,22 @@ body{
 
 .box{
   background-color: rgb(21,30,73);
-  padding: 8px 20px;
-  border-radius: 8px;
+  padding: 2px 3px;
+  border-radius: 15px;
+  /* width: 90%; */
 }
 
 .two{
   background-color: rgb(255,122,151);
+  width: 80%;
     
+}
+
+.three{
+  width: 0.5%;
+  background-color: #fff;
+  padding: 6px 5px;
+  margin-left: auto;
 }
 
 .storage-size{
