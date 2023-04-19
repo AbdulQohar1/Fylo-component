@@ -15,7 +15,7 @@ body{
   padding-bottom: 8em;
   padding-left: 180px;
   /* gap: 30px; */
-  height: 15vh;
+  height: 16vh;
   position: relative;
 }
 
@@ -149,5 +149,111 @@ body{
 }
 
 @media screen and (max-width: 860px) {
+
+  .first-section{
+    width: 20%;
+    padding: 20px 25px;
+    border-radius: 8px 90px 8px 8px;
+    left: 180px;
+    top: -75px;
+  }
+
+  .icon-div{
+    padding: 30px 5px 5px;
+    display: inline-flex;
+  }
+
+  .fylo-icons{
+    width: 16px;
+    padding: 10px;
+  }
+
+  .second-section{
+    width: 33%;
+    right: 45px;
+    top: -46px;
+    padding: 0.5rem 1.5rem
+  }
+
+  .storage-left{
+    padding: 0px 4px;
+    width: 43%;
+    text-align: center;
+    top: -30px;
+  }
+
+  .memory-left{
+    font-size: 18px;
+  }
+  .gb-left{
+    font-size: 10px;
+  }
+
+  .storage-message{
+    font-size: 10px;
+  }
+
+  .eight-hundred{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  body{
+    width: 75%;
+    margin:  auto;
+  }
+  .container{
+    background-image: url("images/bg-mobile.png");
+    /* width: 100%; */
+    height: 55vh;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .first-section{
+    top: 75px;
+    width: 65%;
+    left: 30px;
+
+  }
+
+  .second-section{
+    width: 70%;
+    top: 280px;
+    left: 25px;
+    padding: 20px;
+  }
+
+  .storage{
+    text-align: center;
+  }
+
+  .storage-left{
+    border-radius: 12px;
+    left: 53px;
+    width: 45%;
+}
+
+  .storage-message{
+    font-size: 9px;
+    font-weight: 300;
+  }
+
+  .storage-size{
+    font-weight: 600;
+    font-size: 9px;
+  }
+
+  .memory-left{
+    font-size: 20px;
+  }
   
+}
+
+@media screen and (max-width:300px) {
+  body{
+    width: 100%;
+  }
 }
